@@ -15,7 +15,7 @@ server
         res,
         routes,
         assets,
-        chunks,
+        chunks: assets,
       });
       res.send(html);
     } catch (error) {
